@@ -28,3 +28,18 @@ replay_pid*
 *.o
 *.obj
 *.dll
+
+# =========================
+# C# & Visual Studio Ignore Rules
+# =========================
+# 忽略編譯出來的執行檔與暫存檔 (最重要!)
+[Bb]in/
+[Oo]bj/
+
+# 忽略 Visual Studio 的使用者設定檔 (別人不需要你的視窗設定)
+.vs/
+*.user
+*.suo
+
+# 忽略套件包
+packages/
